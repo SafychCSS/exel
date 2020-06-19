@@ -6,7 +6,11 @@
     "node": true
   },
   "rules": {
-
+    "arrow-parens": "off",
+    "indent": "off",
+    "max-len": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off"
   },
-  "extends": []
+  "extends": ["eslint:recommended", "google"]
 }
